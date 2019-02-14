@@ -22,7 +22,5 @@ module classes_demo {
 
     var engine = new Engine(300, 'v8');
     var car = new Car(engine);
-    var e = new Engine(500, 'BT3');
-    car.engine = e;
     car.start();
 }
